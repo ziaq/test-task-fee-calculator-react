@@ -1,0 +1,33 @@
+.user-context-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-context-info__title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.user-context-info__subtitle {
+  font-size: 18px;
+  color: #666;
+  margin: 0;
+}
+
+.user-context-info__input-wrapper {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-context-info__input {
+  width: 100px;
+  padding: 6px 10px;
+  border: 1px solid var(--gray-300);
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--gray-700);
+}

@@ -1,0 +1,8 @@
+.commission-calculator {
+  border: 1px solid var(--gray-300);
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 22px 35px;
+  width: 930px;
+  margin-top: 32px;
+}

@@ -1,0 +1,24 @@
+.commission-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  border: 1px solid var(--gray-300);
+  border-radius: 8px;
+  background-color: var(--gray-25);
+  padding: 16px;
+}
+
+.commission-info__title {
+  font-weight: 500;
+}
+
+.commission-info__text {
+  margin-top: 3px;
+  color: var(--gray-600);
+}
+
+.commission-info__text ul {
+  list-style-type: disc;
+  margin-left: 14px;
+  margin-bottom: 3px;
+}
