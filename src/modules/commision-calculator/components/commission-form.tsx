@@ -1,12 +1,14 @@
 import '../styles/commission-form.css';
-import { useUserContext } from '@/modules/user-context';
+
 import { useEffect, useState } from 'react';
-import { useCalculateCommission } from '../hooks/use-calculate-commission';
-import { calculateCommissionSchema } from '../dto/calculate-commission.schema';
+
+import { useUserContext } from '@/modules/user-context';
 import { useDebounce } from '@/shared/hooks/use-debounce';
 
-import { CalculatorOptionInfo } from './calculator-option-info';
+import { calculateCommissionSchema } from '../dto/calculate-commission.schema';
+import { useCalculateCommission } from '../hooks/use-calculate-commission';
 import { CalculatorIncludeCheckbox } from './calculator-include-checkbox';
+import { CalculatorOptionInfo } from './calculator-option-info';
 import { CalculatorPriceInput } from './calculator-price-input';
 import { CalculatorResults } from './calculator-results';
 

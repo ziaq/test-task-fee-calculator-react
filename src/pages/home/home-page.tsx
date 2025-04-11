@@ -1,7 +1,8 @@
-import { UserContextInfo } from '../../modules/user-context';
 import './home-page.css';
 
 import { CommissionCalculator } from '@/modules/commision-calculator';
+
+import { UserContextInfo } from '../../modules/user-context';
 
 const HomePage = () => {
   return (

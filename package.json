@@ -6,11 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "preview": "vite preview"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.72.2",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
     "path": "^0.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

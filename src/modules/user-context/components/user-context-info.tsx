@@ -1,4 +1,5 @@
 import '../styles/user-context-info.css';
+
 import { useUserContext } from '@/modules/user-context';
 
 export const UserContextInfo = () => {
